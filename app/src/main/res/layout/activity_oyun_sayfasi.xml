@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bilgi_yarismasi.OyunSayfasi"
+    android:orientation="vertical"
+    android:background="@drawable/oyun_sayfasi"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtSkor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Skor  : "
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="screen"
+            android:max="60"
+            android:min="0"
+            android:padding="10dp"
+            android:progressBackgroundTint="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/txtSure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0/60"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        <TextView
+            android:id="@+id/txtSoru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maddenin en küçük yapıtaşı atomdur."
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="25dp">
+
+        <Button
+            android:id="@+id/btnDogru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="onClick_Dogru"
+            android:padding="15dp"
+            android:alpha="0.8"
+            android:text="Doğru"/>
+
+        <Button
+            android:id="@+id/btnYanlis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yanlış"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:onClick="onClick_Yanlis"
+            android:alpha="0.8"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+﻿1,Türkiye'nin başkenti Ankara'dır.,1
+2,25'in karekökü 5'tir.,1
+3,Gökkuşağında 7 renk yoktur.,0
+4,Yunanista'nın başkenti Selanik'tir.,1
+5,Maddenin en küçük yapıtaşı atomdur.,1

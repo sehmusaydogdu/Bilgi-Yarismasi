@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.bilgi_yarismasi.MainActivity"
+    android:background="@drawable/startpage"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtKullaniciAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="15dp"
+            android:hint="Kullanıcı Adı"
+            android:textColorHint="@color/colorAccent"
+            android:textAlignment="center"
+            android:alpha="0.9"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:onClick="onOyunuBaslat"
+            android:text="@string/btn_Start"
+            android:textColor="@android:color/white"
+            android:padding="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:onClick="onCikis"
+            android:text="@string/btn_Cikis"
+            android:textColor="@android:color/white"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

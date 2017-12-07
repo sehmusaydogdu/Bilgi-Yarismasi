@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bilgi Yarışması</string>
+    <string name="btn_Start">Oyuna Başla</string>
+    <string name="btn_Cikis">Çıkış</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="sehirler">
+        <item>Ankara</item>
+        <item>Adana</item>
+    </string-array>
+</resources>
