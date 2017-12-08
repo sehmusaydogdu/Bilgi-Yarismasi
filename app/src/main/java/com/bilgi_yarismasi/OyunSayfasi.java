@@ -92,7 +92,7 @@ public class OyunSayfasi extends Activity {
                     }
                     try {
                         // Sleep for 500 milliseconds.
-                        Thread.sleep(100);
+                        Thread.sleep(600);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
