@@ -1,1 +1,1 @@
-# BilgiYarismasi
+# Bilgi-Yarismasi

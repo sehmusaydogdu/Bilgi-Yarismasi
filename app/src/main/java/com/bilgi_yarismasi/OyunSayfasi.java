@@ -82,9 +82,17 @@ public class OyunSayfasi extends Activity {
                             txtSure.setText(progressStatus+"/"+progressBar.getMax());
                         }
                     });
+
+                    if (progressStatus==60)
+                    {
+                        Intent intent=new Intent(getApplicationContext(),BitisSayfasi.class);
+                        intent.putExtra("Skorunuz",String.valueOf(txtPuanInt));
+                        startActivity(intent);
+                        finish();
+                    }
                     try {
                         // Sleep for 500 milliseconds.
-                        Thread.sleep(500);
+                        Thread.sleep(100);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }

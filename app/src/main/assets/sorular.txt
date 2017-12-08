@@ -3,3 +3,10 @@
 3,Gökkuşağında 7 renk yoktur.,0
 4,Yunanista'nın başkenti Selanik'tir.,1
 5,Maddenin en küçük yapıtaşı atomdur.,1
+6,İstiklal Marşının yazarı Mehmet Akif Ersoydur.,1
+7,Yerçekimi Kanununu Edison bulmuştur.,0
+8,Yunuslar tek gözleri açık uyur.,1
+9,1 inç 2.54 cm'dir.,1
+10,Salatalık bir sebzedir.,0
+11,Ortalama bir insan yılda 1.460 ‘in üzerinde rüya görür.i,1
+12,Sıcak su soğuk sudan daha ağırdır.,1

@@ -1,6 +1,8 @@
 package com.bilgi_yarismasi;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +20,7 @@ public class MainActivity extends Activity {
     }
 
     public void onCikis(View view) {
-      /*  AlertDialog alertMessage = new AlertDialog.Builder(this).create();
+        AlertDialog alertMessage = new AlertDialog.Builder(this).create();
         alertMessage.setTitle("Çıkış");
         alertMessage.setMessage("Çıkış Yapmak İstediğinizden Emin Misiniz?");
 
@@ -35,9 +37,7 @@ public class MainActivity extends Activity {
 
             }
         });
-        alertMessage.show();*/
-      Intent intent=new Intent(this,BitisSayfasi.class);
-      startActivity(intent);
+        alertMessage.show();
     }
 
     public void onOyunuBaslat(View view) {
